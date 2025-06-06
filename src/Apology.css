@@ -1,0 +1,71 @@
+.funny-apology-container {
+  background: #fff6f0;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.emoji {
+  font-size: 5rem;
+  margin-bottom: 20px;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.funny-apology-text {
+  font-size: 1.3em;
+  color: #333;
+  min-height: 140px;
+  max-width: 85%;
+  line-height: 1.6;
+}
+
+.forgive-button,
+.yes-button,
+.no-button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #ffa07a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.forgive-button:hover,
+.yes-button:hover {
+  transform: scale(1.1);
+  background-color: #ff7f50;
+}
+
+.choice-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.funny-response {
+  margin-top: 25px;
+  font-size: 1.4em;
+  color: green;
+  max-width: 80%;
+}
