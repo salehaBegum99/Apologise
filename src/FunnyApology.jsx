@@ -64,7 +64,7 @@ const FunnyApology = () => {
 
       {stage === 2 && (
         <div className="funny-response">
-          🥳 WOOHOO! You forgave me! You're basically a superhero in disguise. Thank youuu sirr!!
+          🥳 WOOHOO! You forgave me!
         </div>
       )}
     </div>
