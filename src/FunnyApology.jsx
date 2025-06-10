@@ -7,7 +7,7 @@ const FunnyApology = () => {
   const [stage, setStage] = useState(0);
   const [noButtonStyle, setNoButtonStyle] = useState({});
 
-  const message = `😅 Okay okay... I admit it. I messed up. Possibly even broke the world record for "Oops." But hey, I'm human. Please forgive me pleasee...Mr.Rabi Ahmed khan!!! 🙏`;
+  const message = `😅 Okay okay... I admit it. I messed up. Possibly even broke the world record for "Oops." But hey, I'm human. Please forgive me madamm`;
 
   useEffect(() => {
     if (index < message.length) {
